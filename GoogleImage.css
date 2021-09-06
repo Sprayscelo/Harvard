@@ -1,26 +1,22 @@
-body {
+body, html {
     height: 100%;
-    width: 100%;
-}
-
-html {
-    display: block;
-    height: 100%;
-    
+    margin: 0;
+    padding: 0;
 }
 
 #Main {
     display: grid;
     place-items: center;
+    top: 50%;
 }
 
 #CONTAINER {
-    display: block;
-    position: relative;
     display: grid;
+    position: relative;
     grid-row-gap: 25px;
     place-items: center;
     min-width: 1139px;
+    margin: auto;
 }
 
 .input-search {
@@ -129,4 +125,10 @@ form {
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+#Paidetodos {
+    display: grid;
+    place-items: center;
+    position: relative;
 }
