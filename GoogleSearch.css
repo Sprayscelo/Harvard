@@ -33,7 +33,7 @@
     box-shadow: 0px 2px 10px rgb(206, 206, 206);
 }
 
-form > #button-container > input{
+#button-container > input{
     background-color: #f8f9fa;
     display: inline-block;
     border-radius: 4px;
