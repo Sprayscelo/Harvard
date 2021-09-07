@@ -2,21 +2,22 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    display: block;
 }
 
-#Main {
-    display: grid;
-    place-items: center;
-    top: 50%;
+.Main {
+    position: relative;
+    padding-top: 109px;
 }
 
-#CONTAINER {
+#content-container {
     display: grid;
     position: relative;
     grid-row-gap: 25px;
     place-items: center;
     min-width: 1139px;
-    margin: auto;
+    padding-bottom: 35px;
+ 
 }
 
 .input-search {
@@ -50,12 +51,14 @@ form > #input-test:hover {
     
 }
 
-form {
+ form {
     display: grid;
     place-items: center;
     grid-row-gap: 1px;
     position: relative;
-}
+} 
+
+
 
 #Image-logo-search {
     background-image: url(https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
@@ -127,8 +130,20 @@ form {
     cursor: pointer;
 }
 
-#Paidetodos {
+.pages > a {
+    display: inline-block;
+    padding: 10px;
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.pagescon {
     display: grid;
-    place-items: center;
-    position: relative;
+    place-items: end;
+    min-width: 980px;
+    margin-right: 10px;
+    
 }
