@@ -5,22 +5,57 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    
+    <div class="pagescon">
+        <header class="pages">
+            <a href="GoogleSearch.html"> Search </a>
+            <a href="Google-Advanced-Search.html"> Advanced Search</a>
+        </header>
+    </div>
+
     <div id="Main">
-        <button> Images </button>
-        <div id="CONTAINER">
-            <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-                <form action="https://www.google.com/search"> 
-                    <input type="text" name="q" name="" class="input-search" >
-                    <input type="text" name="tbm" value="isch" hidden>
-                        <div id="button-container">
-                            <input type="submit" value="Google search"></button>
-                            <input type="submit" value="I`m Feeling Lucky"></button>
-                        </div>
-                </form>
+        <div id="tittle-container">
+            <label id="adv-search-tittle">Advanced Search</label>
         </div>
+        <hr style="opacity: 20%;"></hr>
+        <div id="find-pages-tittle">
+            <p> Find pages with... </p>
+        </div>
+        <div id="find-pages-container">
+            <form action="https://google.com/search">
+                <div class="search-inputs">
+                    <label for="">
+                        all these words: <input type="text" name="as_q">
+                        <span> type the important words: tri-colour rat terrier </span>
+                    </label>
+                </div>
+                <div class="search-inputs">
+                    <label for="">
+                        this exact word or prhase: <input type="text">
+                        <span> Put exact words in quotes: "rat terrier" </span>
+                    </label>
+                </div>  
+                <div class="search-inputs">
+                    <label for="">
+                        any of these words: <input type="text">
+                        <span>  Type OR between all the words you want: miniature OR standard </span>
+                    </label>
+                </div>
+                <div class="search-inputs">
+                    <label for="">
+                        none of these words: <input type="text">
+                        <span> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </span>
+                    </label>
+                </div>
+                <div class="search-inputs">
+                    <label for="">
+                        numbers ranging from: <input type="text">
+                        <span> Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011 </span>
+                    </label>
+                </div>
+            </form>
+        </div>       
     </div>
 </body>
 </html>                     
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Google-Advanced-Search.css">
 
