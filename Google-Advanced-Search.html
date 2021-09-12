@@ -6,10 +6,10 @@
     </head>
 <body>
     <div class="pagescon">
+        <img width="74px" height="24px" src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
         <header class="pages">
-            <img src="" alt="">
-            <a href="GoogleSearchTest.html"> Search </a>
-            <a href="GoogleImage.html"> Image </a>
+            <a href="Google-Search.html"> Search </a>
+            <a href="Google-Image.html"> Image </a>
         </header>
     </div>
         <div id="Main">
@@ -21,7 +21,7 @@
                         <form action="https://google.com/search">
                             <div class="search-inputs">
                                 <label for="" id="find-pages-h2">
-                                    Find pages with... <input type="text" name="">
+                                    Find pages with... <input type="text">
                                     <span class="field-description-span1"> To do this in the search box.</span> 
                                 </label>
                             </div>
@@ -33,26 +33,32 @@
                             </div>
                             <div class="search-inputs">
                                 <label for="">
-                                    this exact word or prhase: <input type="text">
+                                    this exact word or prhase: <input type="text" name="as_epq">
                                     <span class="field-description-span1"> Put exact words in quotes: <span> "rat terrier" </span> </span> 
                                 </label>
                             </div>  
                             <div class="search-inputs">
                                 <label for="">
-                                    any of these words: <input type="text">
+                                    any of these words: <input type="text" name="as_oq">
                                     <span class="field-description-span1"> Type OR between all the words you want: <span> miniature OR standard </span> </span>
                                 </label>
                             </div>
                             <div class="search-inputs">
                                 <label for="">
-                                    none of these words: <input type="text">
+                                    none of these words: <input type="text" name="as_eq">
                                     <span class="field-description-span1"> Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell" </span> </span> 
                                 </label>
                             </div>
                             <div class="search-inputs">
                                 <label for="">
-                                    numbers ranging from: <div id="teste2"><input type="text"> <div id="grid-to"> to </div>  <input type="text"> </div>
+                                    numbers ranging from: <div id="numbers-range"><input type="text" name="as_nlo"> <div id="grid-to"> to </div>  <input type="text" name="as_nhi"> </div>
                                     <span class="field-description-span1"> Put two full stops between the numbers and add a unit of measurement: <span> 10..35 kg, £300..£500, 2010..2011 </span> </span> 
+                                </label>
+                            </div>
+                            <div class="submit-btn-div">
+                                <label for="">
+                                    <input type="submit" name="" id="submit-btn" value="Advanced search">
+                                    <span class="field-description-span1"></span> 
                                 </label>
                             </div>
                         </form>
