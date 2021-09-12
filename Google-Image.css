@@ -91,7 +91,7 @@ form {
     outline: none;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(src/magnifier-search.png);
+    background-image: url(magnifier-search.png);
     position: absolute;
     width: 18px;
     height: 18px;
@@ -111,7 +111,7 @@ form {
 
 #input-reset {
     background-color: transparent;
-    background-image: url(src/clearbutton.png);
+    background-image: url(clearbutton.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 14px;
