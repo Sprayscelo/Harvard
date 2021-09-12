@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.Main {
+    position: relative;
+    padding-top: 109px;
+}
+
+#content-container {
+    display: grid;
+    position: relative;
+    grid-row-gap: 25px;
+    place-items: center;
+    min-width: 484px;
+    padding-bottom: 35px;
+    padding: 20px;
+ 
+}
+
+.input-search {
+    position: absolute;
+    min-height: 34px;
+    min-width: 380px;
+    background-color: transparent;
+    border: none;
+    word-wrap: break-word;
+    display: inline-block;
+    place-items: center;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    top: 10%;
+    left: 11%;
+    line-height: 34px;
+    font: 16px arial,sans-serif;
+    
+}
+
+#input-test:hover {
+   
+    box-shadow: 0px 1px 6px rgb(32, 33, 36, 28%)  ;
+    border-color: rgba(223,225,229,0);
+    border-width: 1px;
+    
+}
+
+form {
+    display: grid;
+    place-items: center;
+    grid-row-gap: 1px;
+    position: relative;
+} 
+
+
+
+#Image-logo-search {
+    background-image: url(https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+    width: 272px;
+    height: 92px;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    color: #4285f4;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    
+}
+
+#Image-logo-search > span {
+    position: relative;
+    left: 215px;
+    top: 76px;
+}
+
+#search-logo-oninput {
+    position: absolute;
+    padding-right: 13px ;
+    width: 20px;
+    height: 20px;
+    top: 30%;
+    margin-left: 20px;
+    opacity: 75%;
+}
+
+#search-logo-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(src/magnifier-search.png);
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 30%;
+    right: 5%;
+    cursor: pointer;
+    
+}
+
+#input-test {
+    border-radius: 24px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    min-width: 536px;
+    min-height: 46px;
+}
+
+#input-reset {
+    background-color: transparent;
+    background-image: url(src/clearbutton.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 14px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    opacity: 28%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.pages > a {
+    display: inline-block;
+    padding: 10px;
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.pagescon {
+    display: grid;
+    place-items: end;
+    min-width: 400px;
+    margin-right: 10px;
+    
+}
