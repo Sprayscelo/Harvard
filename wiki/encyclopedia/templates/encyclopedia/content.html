@@ -1,0 +1,9 @@
+{% extends "encyclopedia/layout.html" %}
+{% block content %}
+<div class="container">
+    {%csrf_token%}
+    {{page|safe}}
+    <a href="{% url 'wiki:edit' entry %}" class="btn btn-success">Edit this page</a>
+</div>
+{% endblock %}
+

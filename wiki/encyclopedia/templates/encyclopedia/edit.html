@@ -1,0 +1,32 @@
+{% extends "encyclopedia/layout.html" %}
+{%block edit %}
+<div>
+    <form action="" method="POST">
+        {%csrf_token %}
+        {{form}}
+        <button type="submit" class="btn btn-success"> Save Changes </button>
+    </form>
+</div>
+
+<style>
+    form {
+        display: grid;
+        place-items: center;
+        gap: 10px;
+    }
+    label {
+        display: grid;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    div {
+        text-align: center;
+        width: 100%;
+    }
+
+    #input, textarea {
+        width: 100%;
+    }
+</style>
+{%endblock%}
